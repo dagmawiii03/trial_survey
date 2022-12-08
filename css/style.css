@@ -1,76 +1,95 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=monospace&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=monospace&display=swap");
 
 /* css reset */
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
-  body {
-    font-family: 'monospace', sans-serif;
-    background-image: url("../images/bkg.jpeg");
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #151718;
-    color: #fff;
-    font-size: 1.0vw;
-   }
+body {
+  font-family: "monospace", sans-serif;
+  background-image: url("../images/bkg.jpeg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #151718;
+  color: #fff;
+  font-size: 1vw;
+}
 
-  #heading {
-    max-width: 750px;
-    margin: 4rem auto;
-    padding: .6rem;
-  }
-  #main {
-      padding: 0% 20% 0% 20%;
-  }
+#heading {
+  max-width: 750px;
+  margin: 4rem auto;
+  padding: 0.6rem;
+}
+#main {
+  padding: 0% 20% 0% 20%;
+}
 
-  #title {
-    font-size: 2.2rem;
-    text-align: center;
-    line-height: 1.2;
-    padding: .6rem;
-  }
+b{
+  padding: 5px;
+}
+strong{
+  padding: 5px;
+}
 
-  #description {
-    font-size: 1.1rem;
-    text-align: center;
-    padding: .2rem;
-  }
+#input-fields{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 
-  #survey-form {
-    background-color: #2222425d;
-    padding: 3rem 2.5rem;
-    border-radius: 7px;
-  }
+#dropdown-div{
+  margin-top: 30px;
+display: flex;
+flex-direction: column;
+}
 
-  #submit {
-    background: #8022d8;
-    color: #fff;
-    padding: .7rem;
-    font-size: 1.15rem;
-    cursor: pointer;
-  }
+#title {
+  font-size: 2.2rem;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0.6rem;
+}
 
-  #submit:hover {
-    background: rgb(9, 168, 89);
-  }
+#description {
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+#survey-form {
+  background-color: #2222425d;
+  padding: 3rem 2.5rem;
+  border-radius: 7px;
+}
+
+#submit {
+  background: #8022d8;
+  color: #fff;
+  padding: 0.7rem;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: rgb(9, 168, 89);
+}
 
 .form {
   width: 100%;
-  padding: .7rem;
+  padding: 0.7rem;
   border-radius: 6px;
-  font-size: 1.0rem;
+  font-size: 1rem;
   border: none;
 }
 
-  @media only screen and (max-width:480px){
-
+@media only screen and (max-width: 480px) {
   #main {
     padding: 0% 0% 0% 0%;
-    }
   }
+}
